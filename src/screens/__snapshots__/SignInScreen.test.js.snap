@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignIn Renders correctly 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 300,
+        "justifyContent": "space-evenly",
+      }
+    }
+  >
+    <TextInput
+      keyboardType="default"
+      onChangeText={[Function]}
+      placeholder="Enter address"
+      style={
+        Object {
+          "borderBottomWidth": 1,
+          "borderTopWidth": 0,
+          "height": 40,
+          "width": "60%",
+        }
+      }
+      testID="addressField"
+      value=""
+    />
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#999999",
+          "borderRadius": 25,
+          "borderWidth": 0.5,
+          "height": 50,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": "80%",
+        }
+      }
+      testID="signInButton"
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#212121",
+              "fontSize": 16,
+              "letterSpacing": 1.39,
+              "lineHeight": 20,
+            },
+            Object {
+              "color": "#212121",
+            },
+          ]
+        }
+      >
+        Sign in...
+      </Text>
+    </View>
+  </View>,
+  ";",
+]
+`;
